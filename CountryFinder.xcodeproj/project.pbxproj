@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		044394AC1DE2C58700B5B1D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044394AB1DE2C58700B5B1D0 /* AppDelegate.swift */; };
-		044394AE1DE2C58700B5B1D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044394AD1DE2C58700B5B1D0 /* ViewController.swift */; };
+		0405592E1DE445E6004346FA /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405592D1DE445E6004346FA /* CustomTableViewCell.swift */; };
+		040559311DE44675004346FA /* RestaurantFinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040559301DE44675004346FA /* RestaurantFinderViewController.swift */; };
+		040559341DE48377004346FA /* RestaurantMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040559331DE48377004346FA /* RestaurantMapViewController.swift */; };
 		044394B11DE2C58700B5B1D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044394AF1DE2C58700B5B1D0 /* Main.storyboard */; };
 		044394B31DE2C58700B5B1D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044394B21DE2C58700B5B1D0 /* Assets.xcassets */; };
 		044394B61DE2C58700B5B1D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044394B41DE2C58700B5B1D0 /* LaunchScreen.storyboard */; };
+		044394BE1DE2C5D300B5B1D0 /* world-stripped.kml in Resources */ = {isa = PBXBuildFile; fileRef = 044394BD1DE2C5D300B5B1D0 /* world-stripped.kml */; };
+		044394D11DE2C89300B5B1D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044394CD1DE2C89300B5B1D0 /* AppDelegate.swift */; };
+		044394D21DE2C89300B5B1D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044394D01DE2C89300B5B1D0 /* ViewController.swift */; };
+		044394D81DE2C92400B5B1D0 /* KMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 044394D71DE2C92400B5B1D0 /* KMLParser.m */; };
+		044394DB1DE2CB4B00B5B1D0 /* CustomLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044394DA1DE2CB4B00B5B1D0 /* CustomLocationManager.swift */; };
+		044394DE1DE2CC4500B5B1D0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044394DD1DE2CC4400B5B1D0 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0405592D1DE445E6004346FA /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		040559301DE44675004346FA /* RestaurantFinderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantFinderViewController.swift; sourceTree = "<group>"; };
+		040559331DE48377004346FA /* RestaurantMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantMapViewController.swift; sourceTree = "<group>"; };
 		044394A81DE2C58700B5B1D0 /* CountryFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountryFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		044394AB1DE2C58700B5B1D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		044394AD1DE2C58700B5B1D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		044394B01DE2C58700B5B1D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		044394B21DE2C58700B5B1D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044394B51DE2C58700B5B1D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		044394B71DE2C58700B5B1D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044394BD1DE2C5D300B5B1D0 /* world-stripped.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "world-stripped.kml"; path = "../world-stripped.kml"; sourceTree = "<group>"; };
+		044394CD1DE2C89300B5B1D0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		044394D01DE2C89300B5B1D0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		044394D41DE2C92400B5B1D0 /* CountryFinder-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CountryFinder-Bridging-Header.h"; sourceTree = "<group>"; };
+		044394D61DE2C92400B5B1D0 /* KMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLParser.h; sourceTree = "<group>"; };
+		044394D71DE2C92400B5B1D0 /* KMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLParser.m; sourceTree = "<group>"; };
+		044394DA1DE2CB4B00B5B1D0 /* CustomLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLocationManager.swift; sourceTree = "<group>"; };
+		044394DD1DE2CC4400B5B1D0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044394DE1DE2CC4500B5B1D0 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0405592C1DE445BA004346FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0405592D1DE445E6004346FA /* CustomTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0405592F1DE4462F004346FA /* RestaurantFinderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				040559301DE44675004346FA /* RestaurantFinderViewController.swift */,
+			);
+			path = RestaurantFinderViewController;
+			sourceTree = "<group>";
+		};
+		040559321DE48368004346FA /* RestaurantMapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				040559331DE48377004346FA /* RestaurantMapViewController.swift */,
+			);
+			path = RestaurantMapViewController;
+			sourceTree = "<group>";
+		};
 		0443949F1DE2C58700B5B1D0 = {
 			isa = PBXGroup;
 			children = (
 				044394AA1DE2C58700B5B1D0 /* CountryFinder */,
 				044394A91DE2C58700B5B1D0 /* Products */,
+				044394DC1DE2CC4200B5B1D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +96,87 @@
 		044394AA1DE2C58700B5B1D0 /* CountryFinder */ = {
 			isa = PBXGroup;
 			children = (
-				044394AB1DE2C58700B5B1D0 /* AppDelegate.swift */,
-				044394AD1DE2C58700B5B1D0 /* ViewController.swift */,
+				044394D31DE2C8A700B5B1D0 /* Model */,
+				0405592C1DE445BA004346FA /* View */,
+				044394CB1DE2C87100B5B1D0 /* Controller */,
+				044394BF1DE2C5E400B5B1D0 /* Resource */,
 				044394AF1DE2C58700B5B1D0 /* Main.storyboard */,
 				044394B21DE2C58700B5B1D0 /* Assets.xcassets */,
 				044394B41DE2C58700B5B1D0 /* LaunchScreen.storyboard */,
 				044394B71DE2C58700B5B1D0 /* Info.plist */,
 			);
 			path = CountryFinder;
+			sourceTree = "<group>";
+		};
+		044394BF1DE2C5E400B5B1D0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				044394BD1DE2C5D300B5B1D0 /* world-stripped.kml */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		044394CB1DE2C87100B5B1D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				040559321DE48368004346FA /* RestaurantMapViewController */,
+				0405592F1DE4462F004346FA /* RestaurantFinderViewController */,
+				044394CC1DE2C89300B5B1D0 /* AppDelegate */,
+				044394CF1DE2C89300B5B1D0 /* CountryFinderViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		044394CC1DE2C89300B5B1D0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				044394CD1DE2C89300B5B1D0 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		044394CF1DE2C89300B5B1D0 /* CountryFinderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				044394D01DE2C89300B5B1D0 /* ViewController.swift */,
+			);
+			name = CountryFinderViewController;
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		044394D31DE2C8A700B5B1D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				044394D91DE2CB2A00B5B1D0 /* LocationManager */,
+				044394D41DE2C92400B5B1D0 /* CountryFinder-Bridging-Header.h */,
+				044394D51DE2C92400B5B1D0 /* KMLParserFromApple */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044394D51DE2C92400B5B1D0 /* KMLParserFromApple */ = {
+			isa = PBXGroup;
+			children = (
+				044394D61DE2C92400B5B1D0 /* KMLParser.h */,
+				044394D71DE2C92400B5B1D0 /* KMLParser.m */,
+			);
+			path = KMLParserFromApple;
+			sourceTree = "<group>";
+		};
+		044394D91DE2CB2A00B5B1D0 /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				044394DA1DE2CB4B00B5B1D0 /* CustomLocationManager.swift */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		044394DC1DE2CC4200B5B1D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				044394DD1DE2CC4400B5B1D0 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +211,7 @@
 				TargetAttributes = {
 					044394A71DE2C58700B5B1D0 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044394BE1DE2C5D300B5B1D0 /* world-stripped.kml in Resources */,
 				044394B61DE2C58700B5B1D0 /* LaunchScreen.storyboard in Resources */,
 				044394B31DE2C58700B5B1D0 /* Assets.xcassets in Resources */,
 				044394B11DE2C58700B5B1D0 /* Main.storyboard in Resources */,
@@ -136,8 +253,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				044394AE1DE2C58700B5B1D0 /* ViewController.swift in Sources */,
-				044394AC1DE2C58700B5B1D0 /* AppDelegate.swift in Sources */,
+				044394D21DE2C89300B5B1D0 /* ViewController.swift in Sources */,
+				040559341DE48377004346FA /* RestaurantMapViewController.swift in Sources */,
+				0405592E1DE445E6004346FA /* CustomTableViewCell.swift in Sources */,
+				044394DB1DE2CB4B00B5B1D0 /* CustomLocationManager.swift in Sources */,
+				044394D81DE2C92400B5B1D0 /* KMLParser.m in Sources */,
+				044394D11DE2C89300B5B1D0 /* AppDelegate.swift in Sources */,
+				040559311DE44675004346FA /* RestaurantFinderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,10 +382,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CountryFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.CountryFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CountryFinder/Model/CountryFinder-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -272,10 +397,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CountryFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.CountryFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CountryFinder/Model/CountryFinder-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -299,6 +426,7 @@
 				044394BC1DE2C58700B5B1D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
